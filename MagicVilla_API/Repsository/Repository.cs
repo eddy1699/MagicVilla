@@ -40,15 +40,21 @@ namespace MagicVilla_API.Repsository
             return await query.FirstOrDefaultAsync();
         }
 
-        public Task<List<T>> GetAll(Expression<Func<T, bool>>? filter = null)
+        public async Task<List<T>> GetAll(Expression<Func<T, bool>>? filter = null)
         {
-            throw new NotImplementedException();
+            IQueryable<T> query = dbSet;
+            if (filter != null)
+            {
+                query = query.Where(filter);
+            }
+            return await query.ToListAsync();
         }
 
        
-        public Task Remove(T entity)
+        public async Task Remove(T entity)
         {
-            throw new NotImplementedException();
+            dbSet.Remove(entity);
+            await Insert();
         }
     }
 }
