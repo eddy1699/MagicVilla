@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{6B3FACFD-1B5C-4471-8991-95C4AD05AE39}|https">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="MagicVilla_API/appsettings.Development.json">
+    <Files>
+      <File FileName="MagicVilla_API/Migrations/20230518044838_db1.cs" Line="1" Column="1" IsPinned="True" />
+      <File FileName="MagicVilla_API/appsettings.json" Line="11" Column="1" IsPinned="True" />
+      <File FileName="MagicVilla_API/Controllers/VillaController.cs" />
+      <File FileName="MagicVilla_API/Program.cs" />
+      <File FileName="MagicVilla_API/Migrations/20230518050054_dbazure.cs" Line="1" Column="1" />
+      <File FileName="MagicVilla_API/Migrations/20230518050519_test1.cs" Line="1" Column="1" />
+      <File FileName="MagicVilla_API/appsettings.Development.json" Line="12" Column="1" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="MagicVilla" expanded="True">
+            <Node name="MagicVilla_API" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.ItemProperties.MagicVilla__API PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+</Properties>
