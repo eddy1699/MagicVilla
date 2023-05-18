@@ -1,6 +1,10 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "W7VZ7yniZENJSu8VP2FkkxZkueN5YRD1V/8Z71PvXqylqdigUyFCauK7go+BY/vPZu+yaTdNpvVk1FME9v+sTw==",
+=======
+  "dgSpecHash": "1BctVs+k3X7ogGZHVDPd/o+KkLXWM4/pH1hPwC3T1jCQgeEbmJCfVTnLfGhX5QpqFkUqWscBGmGxA0Xn1Y5KyQ==",
+>>>>>>> ef06af29607ce1574650f2035cdf96239c63fa01
   "success": true,
   "projectFilePath": "/Users/edgardo/Desktop/Projects/csharp/MagicVilla/MagicVilla_API/MagicVilla_API.csproj",
   "expectedPackageFiles": [
