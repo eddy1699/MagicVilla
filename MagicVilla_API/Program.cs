@@ -23,13 +23,19 @@ builder.Services.AddAutoMapper(typeof(MappingConfig));
 builder.Services.AddScoped<IVillaRepository, VillaRepository>();
 builder.Services.AddScoped<INumberVillaRepository, NumberVillaRepository>();
 var app = builder.Build();
-
+app.UseSwagger();
+app.UseSwaggerUI();
 // Configure the HTTP request pipeline.
-if (app.Environment.IsDevelopment())
-{
-    app.UseSwagger();
-    app.UseSwaggerUI();
-}
+//if (app.Environment.IsDevelopment())
+//{
+//    app.UseSwagger();
+//    app.UseSwaggerUI(c => {
+//        c.RoutePrefix = string.Empty;
+//        c.SwaggerEndpoint("/swagger/v1/swagger.json", "Name of Your API v1");
+//    });
+
+//}
+
 
 app.UseHttpsRedirection();
 

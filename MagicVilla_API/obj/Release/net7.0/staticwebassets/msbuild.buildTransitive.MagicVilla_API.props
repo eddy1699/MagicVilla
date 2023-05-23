@@ -1,3 +1,7 @@
 ﻿<Project>
+<<<<<<< HEAD
+  <Import Project="../buildMultiTargeting/MagicVilla_API.props" />
+=======
   <Import Project="..\buildMultiTargeting\MagicVilla_API.props" />
+>>>>>>> ef06af29607ce1574650f2035cdf96239c63fa01
 </Project>
