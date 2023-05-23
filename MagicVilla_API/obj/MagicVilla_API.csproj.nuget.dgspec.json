@@ -1,30 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "/Users/edgardo/Desktop/Projects/csharp/MagicVilla/MagicVilla_API/MagicVilla_API.csproj": {}
+    "C:\\Users\\esamame\\Desktop\\Projects\\CSharp\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj": {}
   },
   "projects": {
-    "/Users/edgardo/Desktop/Projects/csharp/MagicVilla/MagicVilla_API/MagicVilla_API.csproj": {
+    "C:\\Users\\esamame\\Desktop\\Projects\\CSharp\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/edgardo/Desktop/Projects/csharp/MagicVilla/MagicVilla_API/MagicVilla_API.csproj",
+        "projectUniqueName": "C:\\Users\\esamame\\Desktop\\Projects\\CSharp\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
         "projectName": "MagicVilla_API",
-        "projectPath": "/Users/edgardo/Desktop/Projects/csharp/MagicVilla/MagicVilla_API/MagicVilla_API.csproj",
-        "packagesPath": "/Users/edgardo/.nuget/packages/",
-        "outputPath": "/Users/edgardo/Desktop/Projects/csharp/MagicVilla/MagicVilla_API/obj/",
+        "projectPath": "C:\\Users\\esamame\\Desktop\\Projects\\CSharp\\MagicVilla\\MagicVilla_API\\MagicVilla_API.csproj",
+        "packagesPath": "C:\\Users\\esamame\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\esamame\\Desktop\\Projects\\CSharp\\MagicVilla\\MagicVilla_API\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "/Users/edgardo/.nuget/NuGet/NuGet.Config"
+          "C:\\Users\\esamame\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net7.0"
         ],
         "sources": {
-<<<<<<< HEAD
-=======
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "C:\\Program Files\\dotnet\\sdk\\7.0.302\\Sdks\\Microsoft.NET.Sdk.Web\\library-packs": {},
->>>>>>> ef06af29607ce1574650f2035cdf96239c63fa01
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -97,11 +95,7 @@
               "privateAssets": "all"
             }
           },
-<<<<<<< HEAD
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
-=======
           "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.302\\RuntimeIdentifierGraph.json"
->>>>>>> ef06af29607ce1574650f2035cdf96239c63fa01
         }
       }
     }
